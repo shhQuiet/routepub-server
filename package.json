@@ -1,0 +1,27 @@
+{
+    "name": "routepub-server",
+    "version": "0.0.0",
+    "description": "A Route Visitor Pub/Sub server",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shhQuiet/routepub-server.git"
+    },
+    "keywords": [
+        "pubsub",
+        "server",
+        "node"
+    ],
+    "author": "Steve Horne",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shhQuiet/routepub-server/issues"
+    },
+    "homepage": "https://github.com/shhQuiet/routepub-server",
+    "dependencies": {
+        "faye": "~1.0"
+    }
+}
