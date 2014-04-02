@@ -2,7 +2,7 @@
 	"PORT": 3000,
 	"faye": {
 		"NodeAdapter": {
-			"mount": "/faye",
+			"mount": "/route",
 			"timeout": 45
 		}
 	}
