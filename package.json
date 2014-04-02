@@ -21,7 +21,13 @@
         "url": "https://github.com/shhQuiet/routepub-server/issues"
     },
     "homepage": "https://github.com/shhQuiet/routepub-server",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.11",
+        "grunt-contrib-jshint": "~0.6.3"
+    },
     "dependencies": {
-        "faye": "~1.0"
+        "faye": "~1.0",
+        "nconf": "0.6.9"
     }
 }
