@@ -9,8 +9,9 @@ config.argv()
 		file: 'config.json'
 	});
 var client = new faye.Client(config.get('test').serverUrl);
-
+console.log(client);
 var test = client.publish('/test', {
+	user: 'shhQuiet',
 	message: 'hello from test!'
 });
 

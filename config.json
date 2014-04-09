@@ -1,4 +1,5 @@
 {
+	"debug": true,
 	"PORT": 3000,
 	"faye": {
 		"NodeAdapter": {
@@ -7,6 +8,10 @@
 		}
 	},
 	"test": {
-		"serverUrl": "http://localhost:3000/route"
+		"serverUrl": "http://localhost:3000/route",
+		"minimumWait": 2,
+		"maximumWait": 7,
+		"numIterations": 20,
+		"numClients": 5
 	}
 }
